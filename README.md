@@ -60,6 +60,7 @@ Resume-Analyzer/
 │
 └── README.md
 
+## dataset link : https://drive.google.com/file/d/1oeVTbVH01DwFMml3PzTb0zmEJplvPw1a/view?usp=drive_link
 ## Install dependencies
 pip install -r requirements.txt
 
