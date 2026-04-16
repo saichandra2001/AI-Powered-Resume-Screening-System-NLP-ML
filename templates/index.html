@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Resume Screening System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container home-container">
+        <h1>AI-Powered Resume Screening System</h1>
+        <p class="subtitle">
+            Smart resume classification, skill extraction, and candidate filtering using NLP & Machine Learning
+        </p>
+
+        <div class="button-grid">
+            <a href="/upload" class="card-btn">
+                <h3>Upload CSV</h3>
+                <p>Analyze multiple resumes from a dataset file</p>
+            </a>
+
+            <a href="/upload_pdf" class="card-btn">
+                <h3>Upload PDF Resume</h3>
+                <p>Predict category for a single resume in real time</p>
+            </a>
+
+            <a href="/search" class="card-btn">
+                <h3>Search Candidates</h3>
+                <p>Filter resumes by skills, category, and experience</p>
+            </a>
+
+            <a href="/download" class="card-btn">
+                <h3>Download Results</h3>
+                <p>Export processed resumes into Excel format</p>
+            </a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Resumes</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>Search Matching Resumes 🔍</h2>
+
+        <form action="/search" method="post">
+            <input type="text" name="skill" placeholder="Enter skill">
+            <br><br>
+
+            <input type="text" name="category" placeholder="Enter category">
+            <br><br>
+
+            <input type="number" name="experience" placeholder="Minimum experience" min="0">
+            <br><br>
+
+            <button type="submit">Search</button>
+        </form>
+
+        <br>
+        <a href="/">⬅ Go Back</a>
+    </div>
+</body>
+</html>
