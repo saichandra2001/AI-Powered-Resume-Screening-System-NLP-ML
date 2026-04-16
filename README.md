@@ -32,7 +32,7 @@ An intelligent web application that automates resume classification, skill extra
 
 ## Machine Learning Model and NLP model
 
-- Algorithm:** Logistic Regresstion ** and **LinearSVC (Support Vector Machine)**
+- Algorithm:**Logistic Regresstion** and **LinearSVC (Support Vector Machine)**
 - Text Processing:
   - Cleaning and normalization
   - TF-IDF feature extraction
